@@ -1,0 +1,310 @@
+CRITICAL - 2022-09-10 09:55:30 --> Class 'OpenSpout\Reader\CSV\Reader' not found
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 10:03:59 --> Too few arguments to function OpenSpout\Reader\CSV\Reader::__construct(), 0 passed in C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php on line 305 and exactly 3 expected
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(305): OpenSpout\Reader\CSV\Reader->__construct()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-10 11:36:42 --> Too few arguments to function OpenSpout\Reader\CSV\Reader::__construct(), 0 passed in C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php on line 305 and exactly 3 expected
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(305): OpenSpout\Reader\CSV\Reader->__construct()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-10 11:40:53 --> Too few arguments to function OpenSpout\Reader\CSV\Reader::__construct(), 0 passed in C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php on line 305 and exactly 3 expected
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(305): OpenSpout\Reader\CSV\Reader->__construct()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-10 11:52:27 --> Too few arguments to function OpenSpout\Reader\CSV\Reader::__construct(), 0 passed in C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php on line 304 and exactly 3 expected
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(304): OpenSpout\Reader\CSV\Reader->__construct()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-10 11:52:41 --> Too few arguments to function OpenSpout\Reader\CSV\Reader::__construct(), 0 passed in C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php on line 304 and exactly 3 expected
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(304): OpenSpout\Reader\CSV\Reader->__construct()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-10 11:54:45 --> Cannot use OpenSpout\Reader\ODS\Reader as Reader because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-10 11:55:24 --> Too few arguments to function OpenSpout\Reader\XLSX\Reader::__construct(), 0 passed in C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php on line 306 and exactly 4 expected
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(306): OpenSpout\Reader\XLSX\Reader->__construct()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-10 11:56:01 --> Class 'App\Controllers\Reader' not found
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 11:56:18 --> Class 'OpenSpout\Reader' not found
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 11:57:27 --> Too few arguments to function OpenSpout\Reader\XLSX\Reader::__construct(), 0 passed in C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php on line 306 and exactly 4 expected
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(306): OpenSpout\Reader\XLSX\Reader->__construct()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-10 11:58:32 --> Too few arguments to function OpenSpout\Reader\XLSX\Reader::__construct(), 0 passed in C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php on line 306 and exactly 4 expected
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(306): OpenSpout\Reader\XLSX\Reader->__construct()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-10 12:02:38 --> Class 'OpenSpout\Reader\XLSX\Reader' not found
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 12:02:56 --> Too few arguments to function OpenSpout\Reader\XLSX\Reader::__construct(), 0 passed in C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php on line 306 and exactly 4 expected
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(306): OpenSpout\Reader\XLSX\Reader->__construct()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-10 12:03:50 --> Too few arguments to function OpenSpout\Reader\XLSX\Reader::__construct(), 0 passed in C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php on line 306 and exactly 4 expected
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(306): OpenSpout\Reader\XLSX\Reader->__construct()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-10 12:08:55 --> Too few arguments to function OpenSpout\Reader\ReaderAbstract::__construct(), 0 passed in C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php on line 306 and exactly 3 expected
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(306): OpenSpout\Reader\ReaderAbstract->__construct()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-10 12:10:43 --> Too few arguments to function OpenSpout\Reader\ReaderAbstract::__construct(), 0 passed in C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php on line 306 and exactly 3 expected
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(306): OpenSpout\Reader\ReaderAbstract->__construct()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-10 12:11:05 --> Too few arguments to function OpenSpout\Reader\ReaderAbstract::__construct(), 0 passed in C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php on line 306 and exactly 3 expected
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(306): OpenSpout\Reader\ReaderAbstract->__construct()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-10 12:11:09 --> Too few arguments to function OpenSpout\Reader\ReaderAbstract::__construct(), 0 passed in C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php on line 306 and exactly 3 expected
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(306): OpenSpout\Reader\ReaderAbstract->__construct()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-10 13:35:06 --> Too few arguments to function OpenSpout\Reader\ReaderAbstract::__construct(), 0 passed in C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php on line 306 and exactly 3 expected
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(306): OpenSpout\Reader\ReaderAbstract->__construct()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-10 14:01:39 --> Call to undefined method Spatie\SimpleExcel\SimpleExcelReader::useHeaders()
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 14:04:44 --> Call to undefined method Spatie\SimpleExcel\SimpleExcelReader::useHeaders()
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 14:06:43 --> Call to undefined method Spatie\SimpleExcel\SimpleExcelReader::useHeaders()
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 14:06:52 --> Call to undefined method Spatie\SimpleExcel\SimpleExcelReader::useHeader()
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 14:07:06 --> Call to undefined method Spatie\SimpleExcel\SimpleExcelReader::setHeaders()
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 14:07:15 --> Call to undefined method Spatie\SimpleExcel\SimpleExcelReader::noHeaders()
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 14:08:12 --> Call to undefined method Spatie\SimpleExcel\SimpleExcelReader::useHeaderRow()
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->testss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 14:18:29 --> Call to a member function store() on null
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->postquestionss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 14:20:43 --> Call to a member function store() on string
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->postquestionss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 14:21:03 --> Call to a member function store() on null
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->postquestionss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 14:24:38 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->postquestionss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 14:25:06 --> Call to a member function isValid() on array
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->postquestionss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 14:25:26 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->postquestionss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 14:27:30 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->postquestionss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 14:33:05 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->postquestionss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 14:37:24 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->postquestionss()
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-10 14:42:50 --> Could not open C:\xampp\htdocs\admin.pquiz\ci\writable\uploads20220910/1662838970_9990bda588f26fd3c59b.xlsx for reading! File does not exist.
+#0 C:\xampp\htdocs\admin.pquiz\vendor\spatie\simple-excel\src\SimpleExcelReader.php(127): Box\Spout\Reader\ReaderAbstract->open('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(362): Spatie\SimpleExcel\SimpleExcelReader->getRows()
+#2 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(259): App\Controllers\Home->reader('20220910/166283...')
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->postquestionss()
+#4 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-10 14:45:08 --> Undefined variable: i
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 365, Array)
+#1 C:\xampp\htdocs\admin.pquiz\vendor\illuminate\collections\Traits\EnumeratesValues.php(245): App\Controllers\Home->App\Controllers\{closure}(Array, 0)
+#2 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(367): Illuminate\Support\LazyCollection->each(Object(Closure))
+#3 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(259): App\Controllers\Home->reader('20220910/166283...')
+#4 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->postquestionss()
+#5 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-10 14:48:27 --> Undefined variable: i
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 365, Array)
+#1 C:\xampp\htdocs\admin.pquiz\vendor\illuminate\collections\Traits\EnumeratesValues.php(245): App\Controllers\Home->App\Controllers\{closure}(Array, 0)
+#2 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(367): Illuminate\Support\LazyCollection->each(Object(Closure))
+#3 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(259): App\Controllers\Home->reader('20220910/166283...')
+#4 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->postquestionss()
+#5 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-10 14:50:44 --> Method Illuminate\Support\LazyCollection::rowsProperties does not exist.
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(364): Illuminate\Support\LazyCollection->__call('rowsProperties', Array)
+#1 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(259): App\Controllers\Home->reader('20220910/166283...')
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->postquestionss()
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-10 14:50:59 --> Property [rowsProperties] does not exist on this collection instance.
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(364): Illuminate\Support\LazyCollection->__get('rowsProperties')
+#1 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(259): App\Controllers\Home->reader('20220910/166283...')
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->postquestionss()
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-10 14:56:08 --> Undefined variable: rowProperties
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(259): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 259, Array)
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->postquestionss()
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-10 15:37:03 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\admin.pquiz\ci\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-10 15:37:26 --> Undefined offset: 6
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Views\questions2.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\Common.php(1119): CodeIgniter\View\View->render('questions2', Array, true)
+#3 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(192): view('questions2', Array)
+#4 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->editquestions()
+#5 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-10 15:37:57 --> Undefined offset: 6
+#0 C:\xampp\htdocs\admin.pquiz\ci\app\Views\questions2.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\admin.pquiz\ci\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin.pquiz\ci\system\Common.php(1119): CodeIgniter\View\View->render('questions2', Array, true)
+#3 C:\xampp\htdocs\admin.pquiz\ci\app\Controllers\Home.php(192): view('questions2', Array)
+#4 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(918): App\Controllers\Home->editquestions()
+#5 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\admin.pquiz\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin.pquiz\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

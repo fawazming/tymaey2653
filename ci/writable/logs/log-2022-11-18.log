@@ -1,0 +1,32 @@
+CRITICAL - 2022-11-18 00:32:46 --> SQLite3::query(): Unable to prepare statement: 1, no such table: pins
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'C:\\xampp\\htdocs...', 184, Array)
+#1 C:\xampp\htdocs\tymaey\ci\system\Database\SQLite3\Connection.php(184): SQLite3->query('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tymaey\ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tymaey\ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#4 C:\xampp\htdocs\tymaey\ci\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\tymaey\ci\system\Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\tymaey\ci\app\Controllers\Logic.php(62): CodeIgniter\Model->find()
+#7 C:\xampp\htdocs\tymaey\ci\system\CodeIgniter.php(918): App\Controllers\Logic->pin()
+#8 C:\xampp\htdocs\tymaey\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logic))
+#9 C:\xampp\htdocs\tymaey\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tymaey\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-18 00:44:07 --> SQLite3::exec(): table pins has no column named created_at
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::exec()...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\tymaey\ci\system\Database\SQLite3\Connection.php(183): SQLite3->exec('INSERT INTO `pi...')
+#2 C:\xampp\htdocs\tymaey\ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\SQLite3\Connection->execute('INSERT INTO `pi...')
+#3 C:\xampp\htdocs\tymaey\ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pi...')
+#4 C:\xampp\htdocs\tymaey\ci\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pi...', Array, false)
+#5 C:\xampp\htdocs\tymaey\ci\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp\htdocs\tymaey\ci\app\Controllers\Logic.php(170): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\tymaey\ci\system\CodeIgniter.php(918): App\Controllers\Logic->samp()
+#8 C:\xampp\htdocs\tymaey\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logic))
+#9 C:\xampp\htdocs\tymaey\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tymaey\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-18 01:33:37 --> Class 'App\Models\Delegates21' not found
+#0 C:\xampp\htdocs\tymaey\ci\system\CodeIgniter.php(918): App\Controllers\Logic->registration()
+#1 C:\xampp\htdocs\tymaey\ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logic))
+#2 C:\xampp\htdocs\tymaey\ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tymaey\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

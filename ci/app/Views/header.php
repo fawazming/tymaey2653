@@ -13,7 +13,7 @@
         <div class="container">
             <div class="d-flex align-items-center ">
                <img src="<?=base_url('img/logo.png')?>" class="img-fluid" width="75px" alt="Giftful">
-               <h2 class="h4 ml-5">The Young Muslims <br>Egba/Yewa <br></h2>
+               <h2 class="h4 ml-5">The Young Muslims Association <br>Egba/Yewa Zone <br></h2>
             </div>
         </div>
     </div>

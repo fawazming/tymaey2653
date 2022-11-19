@@ -3,7 +3,7 @@
         <h5 class="lead text-justify">You are Welcome to <b>TYMa Registration Portal</b> For National Muslim Children Camping Programme (NMCCP)! The above named organization is a non-profit making formidable religious organization recognized by the Federal Government with Certificate of Incorporation CAC/IT/NO19661, as a Non-Governmental Organization. Our focus remains developing children's knowledge, skills, moral and civic values through training with in the realm of Islamic values. 
                 We have lots of competent personnel’s using 21st Century skills and technology to impact knowledge, 
                 there by contributing positively to human development while solving future challenges. Kindly buy a pin to complete your registration the Camp.
-                <br>Early Bird: ₦3,800 😊|| Standard: ₦4,200 😟</h5>
+                <br>Early Bird: ₦3,800 😊|| Late Registration: ₦4,200 😟</h5>
         <div class="row">
             <div class="col-12 col-md-6 mb-3">
                 <a href="<?=base_url('buypin')?>">

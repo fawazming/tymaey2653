@@ -24,6 +24,14 @@
                 </div>
             </div>
         </div>
-
+        <div class="col-12 col-md-6 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/GTBank_logo.svg/240px-GTBank_logo.svg.png" alt="" class="card-img-top">
+                        <h2 class="card-title">GT Bank</h2>
+                        <p class="card-text">Helpline Global Welfare <br>Account No: <a class="card-link" href="tel:0663683849">0663683849</a></p>
+                        <p>Call us on <a href="tel:08061642931">08061642931</a> <br> Whatsapp: <a href="https://wa.me/2348061642931">08061642931</a></p>
+                    </div>
+                </div>
         </div>
-    </div>
+</div>

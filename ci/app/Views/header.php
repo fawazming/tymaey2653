@@ -13,12 +13,13 @@
         <div class="container">
             <div class="d-flex align-items-center ">
                <div class="d-flex align-items-center ">
-               <img src="<?=base_url('img/logo.png')?>" class="img-fluid" width="70px" alt="Giftful">
-               <h2 class="h4 ml-5">The Young Muslims Association <br>Egba/Yewa Zone <br></h2>
+                 <img src="<?=base_url('img/logo.png')?>" class="img-fluid" width="70px" alt="Giftful">
+                 <h2 class="h4 ml-5">The Young Muslims Association <br>Egba/Yewa Zone <br></h2>
                </div>
-               
-               <img src="<?=base_url('img/tyfllogo.png')?>" class="img-fluid" width="70px" alt="Giftful">
-               <h2 class="h4 ml-5">Treasure Young Leaders Foundation <br>Egba/Yewa Zone <br></h2> 
+               <div class="d-flex align-items-center ">
+                 <img src="<?=base_url('img/tyfllogo.png')?>" class="img-fluid" width="70px" alt="Giftful">
+                 <h2 class="h4 ml-5">Treasure Young Leaders Foundation <br>Egba/Yewa Zone <br></h2> 
+               </div>
             </div>
         </div>
     </div>

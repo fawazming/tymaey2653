@@ -142,15 +142,15 @@ class Logic extends BaseController
 		
 	public function samp()
 	{
-        // $Pins = new \App\Models\Pins();
+        $Pins = new \App\Models\Pins();
 
-        // for ($i=1; $i <= 1000; $i++) {
-        //     $p = strtoupper($this->uniqidReal(8));
-        //     echo ($i.' '.$p.'<br>');
-        //     $id = $Pins->insert(['pin'=> $p]);
+        for ($i=1; $i <= 1000; $i++) {
+            $p = strtoupper($this->uniqidReal(7));
+            echo ($i.' '.$p.'<br>');
+            $id = $Pins->insert(['pin'=> $p]);
 
-        // }
-        echo ($this->uniqidReal(16));
+        }
+        // echo ($this->uniqidReal(16));
 
 	}
 

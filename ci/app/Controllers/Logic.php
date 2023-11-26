@@ -142,6 +142,7 @@ class Logic extends BaseController
 		
 	public function samp()
 	{
+        // echo (WRITEPATH);
         $Pins = new \App\Models\Pins();
 
         for ($i=1; $i <= 1000; $i++) {

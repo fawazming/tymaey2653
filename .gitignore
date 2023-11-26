@@ -49,20 +49,20 @@ Vagrantfile
 #-------------------------
 # Temporary Files
 #-------------------------
-ci/writable/cache/*
+writable/cache/*
 !writable/cache/index.html
 
-ci/writable/logs/*
+writable/logs/*
 writable/logs/*
 !writable/logs/index.html
 
-ci/writable/session/*
+writable/session/*
 !writable/session/index.html
 
 writable/uploads/*
 !writable/uploads/index.html
 
-ci/writable/debugbar/*
+writable/debugbar/*
 php_errors.log
 
 #-------------------------

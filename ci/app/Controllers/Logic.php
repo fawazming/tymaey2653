@@ -146,7 +146,7 @@ class Logic extends BaseController
         $Pins = new \App\Models\Pins();
 
         for ($i=1; $i <= 1000; $i++) {
-            $p = strtoupper($this->uniqidReal(7));
+            $p = strtoupper($this->uniqidReal(5));
             echo ($i.' '.$p.'<br>');
             $id = $Pins->insert(['pin'=> $p]);
 
@@ -155,18 +155,17 @@ class Logic extends BaseController
 
 	}
 
-    public function vend($vendor)
-    {
-        $Pins = new \App\Models\Pins();
-        $pp = $Pins->where(['sold'=>0, 'used'=>0, 'vendor'=>'new'])->limit(20)->find();
-        // var_dump($pp);
-        echo ('20 Pins for vendor '.$vendor.'<br>');
-        foreach ($pp as $key => $pin) {
-            $Pins->update($pin['id'], ['sold'=>1, 'vendor'=>$vendor]);
-            echo ($pin['pin'].'<br>');
-        }
-
-    }
+    // public function vend($vendor)
+    // {
+    //     $Pins = new \App\Models\Pins();
+    //     $pp = $Pins->where(['sold'=>0, 'used'=>0, 'vendor'=>'new'])->limit(20)->find();
+    //     // var_dump($pp);
+    //     echo ('20 Pins for vendor '.$vendor.'<br>');
+    //     foreach ($pp as $key => $pin) {
+    //         $Pins->update($pin['id'], ['sold'=>1, 'vendor'=>$vendor]);
+    //         echo ($pin['pin'].'<br>');
+    //     }
+    // }
 
     public function proceedOnline()
     {

@@ -32,8 +32,16 @@
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label for="age">Age</label>
-                    <input type="number" name="age" id="age" class="form-control" placeholder="" required aria-describedby="Age">
+                    <label for="age">Age Range</label>
+                    <select name="age" id="age" class="form-control" id="">
+                        <option value="">Select an age range</option>
+                        <option value="0-3">0 - 3 Under age</option>
+                        <option value="4-6">4 - 6 Bronze</option>
+                        <option value="7-9">7 - 9 Silver</option>
+                        <option value="10-14">10 - 14 Gold</option>
+                        <option value="15 & above">15 and Above Platinum</option>
+                        <option value="Worker">Worker/option>
+                    </select>
                 </div>
                 <div class="mb-3">
                     <label for="schoolcls">School Class</label>
